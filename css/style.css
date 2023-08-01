@@ -7,3 +7,58 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
+nav{
+    background-color: #9376e0;
+}
+
+.nav-container{
+    display: flex;
+    min-height: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.title{
+    color: #e893cf;
+}
+
+.logo-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-container img{
+    width: 50px;
+}
+
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.item-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.item-container .login-btn{
+    background-color: #e893cf;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+.item-container .fa{
+    
+    color: #9376e0;
+    margin-left: 5px;
+}
